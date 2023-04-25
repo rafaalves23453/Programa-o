@@ -42,6 +42,16 @@
 
         <label for="senha">senha:</label>
         <input type="text" id="senha" name="senha"><br><br>
+        
+        <label for="funcionario">funcionario:</label>
+        <input type="text" id="funcionario" name="funcionario"><br><br>
+
+                <label for="sexo">sexo:</label>
+        <select id="sexo" name="sexo">
+        <option value="M">Masculino</option>
+        <option value="F">Feiminino</option>
+        <option value="N">Nao Informado</option>
+        </select>
 
         <input type="submit" value="Enviar">
     </form>
